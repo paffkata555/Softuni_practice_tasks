@@ -14,3 +14,8 @@ public class _01_CurrencyConvertor {
     }
 }
 
+// create scanner
+// create currency variable and parse it
+// declared searching variable in double
+// multiply currency value according bank rate exchange value
+// print searching
