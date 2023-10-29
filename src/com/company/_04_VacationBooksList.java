@@ -11,7 +11,7 @@ public class _04_VacationBooksList {
         int countOfDays = Integer.parseInt(scanner.nextLine());
 
         int allReadingHours = countOfPage / pagesPerHour;
-        int hoursInDay  = allReadingHours / countOfDays;
+        int hoursInDay = allReadingHours / countOfDays;
 
         System.out.println(hoursInDay);
 

@@ -18,7 +18,7 @@ public class _06_Repainting {
         double totalPrice = nylonPrice + paintPrice + thinnerPrice + bags;
         double hoursPrice = totalPrice * 0.30;
 
-        double workersFinalPrice =  hoursPrice * workingHours ;
+        double workersFinalPrice = hoursPrice * workingHours;
         double finalPrice = (totalPrice + workersFinalPrice);
 
         System.out.println(finalPrice);
