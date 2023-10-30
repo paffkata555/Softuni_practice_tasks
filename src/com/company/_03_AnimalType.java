@@ -1,2 +1,25 @@
-package com.company;public class _03_AnimalType {
+package com.company;
+
+import java.util.Scanner;
+
+public class _03_AnimalType {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String animalType = scanner.nextLine();
+
+        switch (animalType){
+            case "dog":
+                System.out.println("mammal");
+                break;
+            case "crocodile":
+            case "tortoise":
+            case "snake":
+                System.out.println("reptile");
+                break;
+            default:
+                System.out.println("unknown");
+                break;
+        }
+
+    }
 }
