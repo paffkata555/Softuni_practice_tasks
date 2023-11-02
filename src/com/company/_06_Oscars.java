@@ -10,7 +10,6 @@ public class _06_Oscars {
         int juryCount = Integer.parseInt(scanner.nextLine());
 
 
-
         for (int i = 1; i <= juryCount; i++) {
 
             String juryName = scanner.nextLine();
@@ -28,7 +27,7 @@ public class _06_Oscars {
         if (actorPoints > 1250.5) {
             System.out.printf("Congratulations, %s got a nominee for leading role with %.1f!", actorName, actorPoints);
 
-        }else {
+        } else {
             System.out.printf("Sorry, %s you need %.1f more!", actorName, 1250.5 - actorPoints);
         }
     }
