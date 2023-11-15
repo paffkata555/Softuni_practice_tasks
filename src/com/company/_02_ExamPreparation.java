@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class _2_ExamPreparation {
+public class _02_ExamPreparation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int badGradesLimit = Integer.parseInt(scanner.nextLine());

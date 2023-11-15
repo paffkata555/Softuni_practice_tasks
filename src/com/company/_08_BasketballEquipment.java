@@ -14,7 +14,8 @@ public class _08_BasketballEquipment {
         double accessoriesPrice = ballPrice * 0.2;
         double totalPrice = annualFee + shoesPrice + equipmentPrice + ballPrice + accessoriesPrice;
 
-        System.out.println(totalPrice);
+//        System.out.println(totalPrice);
+        System.out.printf("%.2f",totalPrice);
 
     }
 }
